@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess The Secret Number</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Welcome Page -->
+    <div class="container" id="welcomePage">
+        <h1>🎯 Guess The Secret Number</h1>
+
+        <p>
+            Welcome! Try to find the secret number between 1 and 100.
+        </p>
+
+        <button onclick="startGame()">Start Game</button>
+    </div>
+
+    <!-- Game Page -->
+    <div class="container hidden" id="gamePage">
+
+        <h1>🎮 Game Started</h1>
+
+        <p>Enter a number between 1 and 100</p>
+
+        <input type="number" id="guessInput" placeholder="Enter your guess">
+
+        <button onclick="checkGuess()">Check Guess</button>
+
+        <h3 id="message">Start Guessing...</h3>
+
+        <p id="attempts">Attempts: 0 / 5</p>
+
+        <button onclick="resetGame()">Play Again</button>
+
+        <button onclick="exitGame()">Exit Game</button>
+
+    </div>
+
+    <!-- Thank You Page -->
+    <div class="container hidden" id="thankPage">
+
+        <h1>Thank You!💖</h1>
+
+        <p>Thanks for playing Guess The Secret Number.</p>
+
+        <h2>Come Again😊</h2>
+
+        <button onclick="backHome()">Back To Home</button>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
