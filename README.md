@@ -26,6 +26,10 @@ A simple and interactive number guessing game built using HTML, CSS and JavaScri
 4. Guess the secret number within 5 attempts.
 5. Click Play Again to start a new game.
 
+## Live Demo
+
+guessthesecretno.netlify.app
+
 ## Author
 
 Yashika
